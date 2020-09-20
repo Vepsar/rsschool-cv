@@ -1,0 +1,10 @@
+Vasiliy Zhuk Sergeevich
+
+E-mail: vepsar@tut.by
+Discord: vepsar#7673
+
+Education: 
+BNTU FITR 2014-2019 Electrical Drives
+MSPC 2010-2014 Assembling and maintance electrical equipment and power and light circuits
+
+English level: B2
