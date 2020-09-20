@@ -1,6 +1,7 @@
 Vasiliy Zhuk Sergeevich
 
 E-mail: vepsar@tut.by
+Discord: vepsar#7673
 
 Education: 
 BNTU FITR 2014-2019 Electrical Drives
