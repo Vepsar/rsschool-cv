@@ -1,4 +1,4 @@
-Vasiliy Zhuk
+Vasiliy Zhuk Sergeevich
 
 E-mail: vepsar@tut.by
 
