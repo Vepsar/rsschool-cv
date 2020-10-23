@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    color: #ffffff;
+    transition: background-image 1s ease-in-out;
+    text-shadow: black 3px 3px 1px;
+}
+
+button {
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    background: grey;
+    opacity: 0.3;
+    font-size: 17px;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn_img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.btn_qts {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}
+
+.TimeDate {
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+}
+
+.time {
+    /* font-size: 8rem; */
+    font-size: 200%;
+}
+
+.date {
+    flex-grow: 1;
+    /* font-size: 2.5rem; */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 160%;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    /* height: 3%; */
+    margin-bottom: 0.5rem;
+    /* opacity: 0.8; */
+}
+
+.name {
+    display: inline-block;
+}
+
+.ffocus {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 70%;
+    font-size: 90%;
+}
+
+.focus {
+    height: 20%;
+}
+
+.weather_block {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    justify-self: center;
+    font-size: 1.5em;
+}
+
+.weather-icon {
+    font: normal normal normal 50px/1 owfont;
+}
+
+.weather-icon,
+.temperature,
+.weather-description,
+.humidity,
+.windspeed {
+    margin: 0 10px 0;
+}
+
+#weth1,
+#weth2 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.weather {
+    width: 60%;
+    justify-self: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 15%;
+    font-style: italic;
+    width: 80%;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+figcaption {
+    text-align: right;
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 1rem;
+    }
+    .TimeDate {
+        font-size: 150%;
+    }
+    button {
+        width: 90px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .ffocus {
+        width: 85%;
+    }
+    .quote {
+        font-size: 80%;
+        width: 85%;
+    }
+    .weather_block {
+        margin-top: 20px;
+    }
+    .btn_img {
+        top: 7px;
+    }
+    .weather-icon {
+        font: normal normal normal 30px/1 owfont;
+    }
+    .weather {
+        width: 100%;
+    }
+    .weather-description {
+        width: 140%;
+    }
+}
