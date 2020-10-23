@@ -290,7 +290,9 @@ function setBackground(num) {
     const img = document.createElement('img');
     const src = getBackground(num);
     img.src = src;
+    img.onload = ()=>{
     document.body.style.backgroundImage = `url(${src})`;
+    }
 }
 
 function getArrayImage() {
